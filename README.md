@@ -79,7 +79,7 @@ The analysis is broken down into the following steps:
 2.  Ensure the data files are in the working directory.
 3.  Run the R script:
     ```R
-    source("scripts/MLS_Analysis_Simulation.R")
+    source("Haeyong Chun_Final Project R Code.R")
     ```
 
 ## 👤 Author
