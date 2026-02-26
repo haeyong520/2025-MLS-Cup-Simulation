@@ -36,7 +36,7 @@ Instead, efficiency metrics were the key drivers:
 ### 2. Model Performance & "Over-Performers"
 The offensive Poisson model successfully captured the overall distribution of points. However, residual analysis highlighted teams that over/under-performed relative to their underlying metrics.
 
-![Points Difference](images/Graph_points%20diff.png)
+![Points Difference](figures/Graph_points diff.png)
 *Figure: Residuals (Observed Points - Predicted Points). Teams like Columbus Crew and Charlotte significantly outperformed their offensive expectations.*
 
 ### 3. Championship Simulation
@@ -44,7 +44,7 @@ Using the strength parameters from the Poisson model, I simulated the playoff br
 * **Projected Favorite:** Inter Miami (~12%)
 * **Reality Check:** Inter Miami actually won the MLS Cup.
 
-![Simulation Results](images/Graph_Explained%20variance.png) 
+![Simulation Results](figures/Graph_simulation.png) 
 *(Note: Please replace the link above with 'Graph_simulated_probabilities.png' if you upload the bar chart of probabilities)*
 
 ## 💻 Code Structure
@@ -83,4 +83,4 @@ The analysis is broken down into the following steps:
 ## 👤 Author
 **Haeyong Chun**
 * Ph.D. Candidate in Sport Psychology (Focus on Quantitative Methods)
-* [https://www.linkedin.com/in/haeyong-chun-417256383/] | [chunhaey@msu.edu]
+* [linkedin webpage (https://www.linkedin.com/in/haeyong-chun-417256383/)] | [Email(chunhaey@msu.edu)]
