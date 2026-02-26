@@ -36,7 +36,7 @@ Instead, efficiency metrics were the key drivers:
 ### 2. Model Performance & "Over-Performers"
 The offensive Poisson model successfully captured the overall distribution of points. However, residual analysis highlighted teams that over/under-performed relative to their underlying metrics.
 
-![Points Difference](figures/Graph_points diff.png)
+![Points Difference](figures/Graph_points_diff.png)
 
 *Figure: Residuals (Observed Points - Predicted Points). Teams like Columbus Crew and Charlotte significantly outperformed their offensive expectations.*
 
