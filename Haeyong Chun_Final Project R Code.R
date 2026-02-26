@@ -16,9 +16,9 @@ pacman::p_load(readxl, dplyr, tidyr, ggplot2, Hmisc, httr, ggcorrplot)
 # Note: Loading data from raw GitHub URLs ensures reproducibility across different machines.
 
 # [ACTION REQUIRED] Please update the URLs below with your actual GitHub Raw URLs
-url_off   <- "https://raw.githubusercontent.com/YOUR_GITHUB_ID/REPO_NAME/main/data/STT832_Offensive_Data.xlsx"
-url_def   <- "https://raw.githubusercontent.com/YOUR_GITHUB_ID/REPO_NAME/main/data/STT832_Defensive_Data.xlsx"
-url_pts   <- "https://raw.githubusercontent.com/YOUR_GITHUB_ID/REPO_NAME/main/data/STT832_pts.xlsx"
+url_def <- "https://raw.githubusercontent.com/haeyong520/2025-MLS-Cup-Simulation/main/data/STT832_Defensive_Data.xlsx"
+url_off <- "https://raw.githubusercontent.com/haeyong520/2025-MLS-Cup-Simulation/main/data/STT832_Offensive_Data.xlsx"
+url_pts <- "https://raw.githubusercontent.com/haeyong520/2025-MLS-Cup-Simulation/main/data/STT832_pts.xlsx"
 # If you have a separate possession file, add it here similarly.
 
 # Helper function to download and read Excel files from URL
@@ -206,3 +206,4 @@ ggplot(champion_df, aes(x = reorder(Squad, win_prob), y = win_prob)) +
 
 # Save the plot
 ggsave("simulated_probabilities.png", width = 8, height = 6)
+
